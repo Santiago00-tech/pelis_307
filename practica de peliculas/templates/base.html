@@ -1,0 +1,35 @@
+<!-- Declara que el documento usa HTML5 -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Define la codificación de caracteres (UTF-8) -->
+  <meta charset="UTF-8">
+
+  <!-- Hace que la página sea responsive en dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bloque de Jinja para que las plantillas hijas puedan establecer el título -->
+  <title>Peliculas 307</title>
+</head>
+
+<body>
+  <!-- Barra de navegación principal -->
+  <nav>
+    <!-- Enlaces que usan url_for para generar las URLs según las funciones de vista en app.py -->
+    <a href="suspenso.html">Suspenso</a> |
+    <a href="terror.html">Terror</a> |
+    <a href="romance.html">Romance</a> |
+    <a href="infantil.html">Infantil</a>
+  </nav>
+
+  <!-- Línea horizontal de separación -->
+  <hr>
+
+  <!-- Contenedor principal donde se insertará el contenido específico de cada página -->
+  <main>
+    <!-- Bloque de Jinja; las plantillas que extienden base.html definen este bloque -->
+  </main>
+</body>
+
+</html>
